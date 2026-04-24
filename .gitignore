@@ -1,0 +1,13 @@
+# --- macOS ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# --- VSCode ---
+.vscode/
+*.code-workspace
+
+# --- Node.js (por si usamos npm en el futuro) ---
+node_modules/
