@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -38,12 +38,31 @@
   <main>
     <section id="hero">
       <div class="hero-content">
-        <img src="assets/images/profile.jpeg" alt="Diego Castillo" class="hero-avatar" />
-        <h1 data-i18n="hero_title">Software Engineer</h1>
-        <p data-i18n="hero_subtitle">Cloud & DevOps Enthusiast | Mönchengladbach, Germany</p>
+        <div class="hero-eyebrow"><span class="eyebrow-dot"></span>Disponible para nuevos proyectos</div>
+        <h1 data-i18n="hero_title">De código a producción,<br>sin <span class="accent">fricción.</span></h1>
+        <p data-i18n="hero_subtitle">Software Engineer | Cloud & DevOps Enthusiast | Mönchengladbach, Germany</p>
         <div class="hero-buttons">
           <a href="#projects" class="btn btn-primary" data-i18n="btn_projects">Ver Proyectos</a>
           <a href="mailto:diegocvbien@googlemail.com" class="btn btn-secondary" data-i18n="btn_contact">Contactar</a>
+        </div>
+        <div class="hero-stack">
+          <span>AWS</span><span>Terraform</span><span>Docker</span><span>GitHub Actions</span>
+        </div>
+      </div>
+
+      <div class="hero-terminal">
+        <div class="terminal-bar">
+          <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+          <span class="terminal-title">diego@portfolio — zsh</span>
+        </div>
+        <div class="terminal-body">
+          <div class="tline"><span class="tprompt">$</span> whoami</div>
+          <div class="tline"><span class="tout">diego_castillo</span></div>
+          <div class="tline"><span class="tprompt">$</span> cat role.txt</div>
+          <div class="tline"><span class="tout">Cloud &amp; DevOps Engineer</span></div>
+          <div class="tline"><span class="tprompt">$</span> ./deploy.sh --env=production</div>
+          <div class="tline"><span class="tcomment"># deploy exitoso · 0 downtime · 2m14s</span></div>
+          <div class="tline"><span class="tprompt">$</span> <span class="tcursor"></span></div>
         </div>
       </div>
     </section>
@@ -55,48 +74,74 @@
 
     <section id="skills">
       <h2 data-i18n="section_skills">Habilidades Técnicas</h2>
-      <div class="skills-container">
-        <div class="skill-group">
-          <h3>Cloud & DevOps</h3>
-          <ul>
-            <li>AWS (S3, IAM, Lambda)</li>
-            <li>Terraform / IaC</li>
-            <li>GitHub Actions / CI/CD</li>
-          </ul>
+      <div class="skills-neofetch">
+        <div class="terminal-bar">
+          <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+          <span class="terminal-title">diego@skills — neofetch</span>
         </div>
-        <div class="skill-group">
-          <h3>Development</h3>
-          <ul>
-            <li>Python / Flask</li>
-            <li>JavaScript / Node.js</li>
-            <li>HTML5 / CSS3</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h3>Tools & Soft Skills</h3>
-          <ul>
-            <li>Git / Bash</li>
-            <li>Problem-solving</li>
-            <li>Trabajo en equipo remoto</li>
-          </ul>
+        <div class="neofetch-body">
+          <pre class="neofetch-art">
+   .--.
+ .-(    ).
+(___.__)__)
+</pre>
+          <div class="neofetch-info">
+            <div class="nf-line"><span class="nf-key">OS</span><span class="nf-val">Cloud Engineer</span></div>
+            <div class="nf-line"><span class="nf-key">Host</span><span class="nf-val">Mönchengladbach, DE</span></div>
+            <div class="nf-line"><span class="nf-key">Cloud</span><span class="nf-val">AWS (S3, IAM, Lambda)</span></div>
+            <div class="nf-line"><span class="nf-key">Kernel</span><span class="nf-val">Terraform / IaC</span></div>
+            <div class="nf-line"><span class="nf-key">CI/CD</span><span class="nf-val">GitHub Actions</span></div>
+            <div class="nf-line"><span class="nf-key">Languages</span><span class="nf-val">Python, JavaScript</span></div>
+            <div class="nf-line"><span class="nf-key">Frameworks</span><span class="nf-val">Flask, Node.js</span></div>
+            <div class="nf-line"><span class="nf-key">Shell</span><span class="nf-val">Bash / Git</span></div>
+            <div class="nf-line"><span class="nf-key">Soft skills</span><span class="nf-val">Problem-solving, remote teamwork</span></div>
+            <div class="nf-line nf-colors">
+              <span class="cbox" style="background:#E8555B"></span>
+              <span class="cbox" style="background:#E8B93D"></span>
+              <span class="cbox" style="background:#4FD17A"></span>
+              <span class="cbox" style="background:#4FD1C5"></span>
+              <span class="cbox" style="background:#E8A33D"></span>
+              <span class="cbox" style="background:#ECEEF0"></span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="projects">
       <h2 data-i18n="section_projects">Proyectos Destacados</h2>
-      
-      <article class="project-card">
-        <h3>🔮 Carta Astrolab</h3>
-        <p>Generador interactivo de cartas astrológicas con JavaScript vanilla, cálculo de signos solares y API de horóscopos en tiempo real.</p>
-        <small>Vanilla JS • CSS3 • GitHub Pages</small>
-      </article>
-      
-      <article class="project-card">
-        <h3>☁️ CloudWatch Dashboard</h3>
-        <p>Dashboard serverless para monitoreo de métricas de CPU usando arquitectura AWS: EventBridge → Lambda → CloudWatch → S3.</p>
-        <small>Python 3.12 • AWS • Serverless</small>
-      </article>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="terminal-bar">
+            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+            <span class="terminal-title">carta-astrolab.git</span>
+          </div>
+          <div class="project-body">
+            <div class="pcmd"><span class="tprompt">$</span> git clone carta-astrolab.git</div>
+            <div class="pcomment" data-i18n="project1_comment">// 🔮 Generador interactivo de cartas astrológicas</div>
+            <p data-i18n="project1_desc">Cálculo de signos solares y consumo de API de horóscopos en tiempo real, construido con JavaScript vanilla.</p>
+            <div class="ptags">
+              <span>Vanilla JS</span><span>CSS3</span><span>GitHub Pages</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="terminal-bar">
+            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+            <span class="terminal-title">cloudwatch-dashboard.git</span>
+          </div>
+          <div class="project-body">
+            <div class="pcmd"><span class="tprompt">$</span> git clone cloudwatch-dashboard.git</div>
+            <div class="pcomment" data-i18n="project2_comment">// ☁️ Dashboard serverless de monitoreo</div>
+            <p data-i18n="project2_desc">Arquitectura AWS: EventBridge → Lambda → CloudWatch → S3, para métricas de CPU en tiempo real.</p>
+            <div class="ptags">
+              <span>Python 3.12</span><span>AWS</span><span>Serverless</span>
+            </div>
+          </div>
+        </article>
+      </div>
     </section>
 
     <section id="contact">
