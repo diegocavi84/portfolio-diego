@@ -17,7 +17,9 @@ const translations = {
     project1_comment: "// 🔮 Generador interactivo de cartas astrológicas",
     project1_desc: "Cálculo de signos solares y consumo de API de horóscopos en tiempo real, construido con JavaScript vanilla.",
     project2_comment: "// ☁️ Dashboard serverless de monitoreo",
-    project2_desc: "Arquitectura AWS: EventBridge → Lambda → CloudWatch → S3, para métricas de CPU en tiempo real."
+    project2_desc: "Arquitectura AWS: EventBridge → Lambda → CloudWatch → S3, para métricas de CPU en tiempo real.",
+    hero_eyebrow: "Disponible para nuevos proyectos",
+    deploy_status: "# deploy exitoso · 0 downtime · 2m14s"
   },
   de: {
     nav_about: "Über mich",
@@ -36,7 +38,9 @@ const translations = {
     project1_comment: "// 🔮 Interaktiver Astrologie-Kartengenerator",
     project1_desc: "Berechnung von Sonnenzeichen und Anbindung an eine Horoskop-API in Echtzeit, gebaut mit Vanilla JavaScript.",
     project2_comment: "// ☁️ Serverloses Monitoring-Dashboard",
-    project2_desc: "AWS-Architektur: EventBridge → Lambda → CloudWatch → S3, für CPU-Metriken in Echtzeit."
+    project2_desc: "AWS-Architektur: EventBridge → Lambda → CloudWatch → S3, für CPU-Metriken in Echtzeit.",
+    hero_eyebrow: "Verfügbar für neue Projekte",
+    deploy_status: "# Deploy erfolgreich · 0 Ausfallzeit · 2m14s"
   },
   en: {
     nav_about: "About Me",
@@ -55,7 +59,9 @@ const translations = {
     project1_comment: "// 🔮 Interactive astrology chart generator",
     project1_desc: "Sun sign calculation and real-time horoscope API integration, built with vanilla JavaScript.",
     project2_comment: "// ☁️ Serverless monitoring dashboard",
-    project2_desc: "AWS architecture: EventBridge → Lambda → CloudWatch → S3, for real-time CPU metrics."
+    project2_desc: "AWS architecture: EventBridge → Lambda → CloudWatch → S3, for real-time CPU metrics.",
+    hero_eyebrow: "Available for new projects",
+    deploy_status: "# deploy successful · 0 downtime · 2m14s"
   }
 };
 
